@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moje Portfolio</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/fontello.css'>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000000;
+      padding: 15px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-weight: bold;
+      flex-wrap: wrap;
+      height: 80px;
+    }
+    
+    h1 {
+      margin-top: 0;
+      font-size: 36px;
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      display: grid;
+      display: flex;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border: 10px solid rgb(255, 0, 0);
+    }
+    
+    .left {
+      flex-basis: 50%;
+      border-right: 10px solid rgb(255, 0, 0);
+      padding: 20px;
+    }
+    
+    .left p {
+      font-size: 24px;
+      font-style: italic;
+      margin: 0;
+      font-weight: bold;
+    }
+    
+    .right {
+      flex-basis: 50%;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .right img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    
+    .right h3 {
+      margin-top: 0;
+      font-weight: bold;
+    }
+    
+    .right p {
+      margin-bottom: 0;
+      font-weight: bold;
+    }
+    
+    footer {
+      background-color: rgb(70, 70, 70);
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    .skills {
+      margin-top: 20px;
+      text-align: right;
+    }
+    
+    .skills li {
+      display: block;
+      margin-bottom: 5px;
+      position: relative;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    
+    .skills li::after {
+      content: "...";
+      position: absolute;
+      top: 0;
+      right: -10px;
+    }
+    
+    .ikony {
+      background-color: rgb(255, 255, 255);
+      width: 450  px;
+      height: 50px;
+      border: 5px double rgb(255, 0, 0);
+      border-radius: 10%;
+      box-shadow: 5px 5px 5px rgb(82, 82, 85);
+      flex-wrap: wrap;
+    }
+    
+    .ikony i {
+      font-size: 50px;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: rgb(0, 0, 0);
+    }
+    
+    a:link {
+      color: black;
+    }
+    
+    a:visited {
+      color: rgb(0, 0, 0);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="font-size: 75px;">Jakub Matuszak</h1>
+  </header>
+
+  <div class="container">
+    <div class="left">
+      <br><br><br><br><br><br><br><br><br><br>
+      <p style="font-size: 35px;">"Miłosc do ojczyzny i drugiego mezszczyzny"</p><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div class="ikony">
+        <a href="https://www.youtube.com/@coldsalate" target="_blank"><i class="icon-youtube-play"></i></a>
+        <a href="https://github.com/lunartoc" target="_blank"><i class="icon-github-circled"></i></a>
+        <a href="https://twitter.com/ballin" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100073603832768" target="_blank"><i class="icon-facebook-official"></i></a>
+      </div>
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="right">
+      <img src="ballin.jpg" alt="Moje zdjęcie"><br><br><br><br><br><br><br>
+      <h3></h3>
+      <p>Umiejetnosci:</p>
+        <input type="checkbox" name="tworzenie stron">tworzenie stron<br>
+        <input type="checkbox" name="programwie w python">programwie w python<br>
+        <input type="checkbox" name="GitHub">GitHub<br>
+    </div>
+  </div>
+  
+  <footer>
+    &copy; 2024 luty
+  </footer>
+</body>
+</html>

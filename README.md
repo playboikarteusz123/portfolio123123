@@ -1,6 +1,10 @@
-porflio
-jakub 
-dadask;jscbac ak;cjjba sc;kabc,mabcas;kjbcakcbas;kcbascja;ckjbckjzbck;jab c;kajbca,c akjbca/cbaki 
+#porfolio
+Author-Jakub Matuszak
+Program-VSC
+Data-2024
+Deploy
+ 
+
 
 
 
